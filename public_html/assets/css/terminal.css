@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 черв. 2014, 15:21:54
+    Author     : Vitaliy
+*/
+
+body {
+    /*background-color: lightslategray;*/
+    font-family: arial;
+    font-weight: bold;
+    
+}
+
+.terminal {
+   position: absolute;
+   width: 75%;
+   max-height: auto;
+   min-height: 75%;
+   background-color: silver;
+   left: 12.5%;
+   top: 12%;
+   border-radius: 4px;
+   -webkit-box-shadow: 2px 0px 30px 0px rgba(50, 50, 50, 0.75);
+   -moz-box-shadow:    2px 0px 30px 0px rgba(50, 50, 50, 0.75);
+   box-shadow:         2px 0px 30px 0px rgba(50, 50, 50, 0.75);
+}
+
+.terminal .terminal-heading {
+    padding-left: 20px;
+    padding-top: 6px;
+    background-color: azure;
+    height: 24px;
+    position: relative;
+    border-radius: 4px 4px 0px 0px;
+}
+ 
+.terminal-close {
+    background-color: #990000;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+}
+
+.terminal-full-screen {
+    background-color: #6666ff;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    right: 25px;
+    top: 7px;
+}
+
+.terminal-close:hover
+{
+    background-color: #ff0000
+}
+.terminal-full-screen:hover {
+    background-color: #0000ff;
+
+}
+
+.terminal .terminal-command:focus {
+    outline: 0;
+}
+
+.terminal .terminal-body {
+    padding: 10px;
+    overflow-y: visible;
+    word-wrap: break-word;
+}
+
+.terminal-command {
+    display: inline;
+    padding: 1px;
+    background-color: wheat; 
+}
+
+.refractor {
+    display: inline;
+}
